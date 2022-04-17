@@ -1,0 +1,22 @@
+{
+  "name": "encrypted-note-taker",
+  "productName": "Note Taker",
+  "version": "1.0.0",
+  "description": "This is a note taker application which uses cryptology for desktop.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": {
+    "name": "Emre Can Karataş",
+    "email": "emrecankkaratas@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "electron-store": "^8.0.0"
+  },
+  "devDependencies": {
+    "electron": "^14.2.9"
+  }
+}
