@@ -3,7 +3,7 @@
 - This is a desktop notepad application which uses cryptology. It base on Electron.
 
 ## Login
-- It doesn't contain registration. It just need a password .Notes are encrypted and decrypted by the password.
+- It doesn't contain registration. It just need a password. Notes are encrypted and decrypted by the password.
 - At first, the application want that you fill three password field. First field declare as string. Second and third fields must be integer. After, second and third numbers are multiplied each other. Finally, result of multiplication is converted to string and it is put together first field. 
 - ###### Password = String(First Field) + String( Int(Second Field) * Int(Third Field) )
 - Password must has thirty two character. Therefore, first password must has 16 character. The password are reversed and added to itself. The password is final password for login to the application.
